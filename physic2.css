@@ -89,7 +89,7 @@ table {
   align-items: center;
   width: 90px;
   height: 90px;
-  background: lightgray;
+  background: #404040;
   border-radius: 50%;
   user-select: none;
 }
