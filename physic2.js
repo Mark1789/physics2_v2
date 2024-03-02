@@ -27,11 +27,11 @@ let heroObj = {
     if (this.heroX + hero.offsetWidth > areaCoords.right) {
       this.heroX = areaCoords.right - hero.offsetWidth;
     } 
-    if (this.heroX - areaCoords.left < areaCoords.left) {
-      this.heroX = 0;
+    if (this.heroX < areaCoords.left) {
+      this.heroX = 1;
     }
-    if (this.heroY - areaCoords.top < areaCoords.top) {
-      this.heroY = 0;
+    if (this.heroY < areaCoords.top) {
+      this.heroY = 1;
     }
     if (this.heroY + hero.offsetHeight > areaCoords.bottom) {
       this.heroY = areaCoords.bottom - hero.offsetHeight;
