@@ -48,7 +48,7 @@ body {
   align-items: center;
   width: 140px;
   height: 140px;
-  background: lightgray;
+  background: #404040;
   border-radius: 50%;
 }
 table {
